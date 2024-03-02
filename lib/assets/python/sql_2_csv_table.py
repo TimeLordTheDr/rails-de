@@ -20,7 +20,7 @@ sql_query = f"SELECT * FROM {sys.argv[1]}"
 df = pd.read_sql(sql_query, connection)
 
 # Specify the path for the CSV file
-csv_file_path = 'output.csv'
+csv_file_path = 'output2.csv'
 
 # Save the DataFrame to a CSV file
 df.to_csv(csv_file_path, index=False)
